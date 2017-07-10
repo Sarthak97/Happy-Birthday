@@ -1,54 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Happy Birthday</title>
+	<title>Happy Birthday</title>
 	<link rel="shortcut icon" href="bday.ico" />
 
-
 	<style type="text/css">
-		#a 
+		img
 		{
-			opacity: 0;
+    		border-radius: 10px;
 		}
-
-		#b 
-		{
-			opacity: 0;
-		}
-
-		#c 
-		{
-			opacity: 0;
-		}
-
-
-		.img__description {
-		  position: absolute;
-		  border-style: none;
-		  border-width: 0px;
-		  margin: 0px; 
-		  top: 0;
-		  bottom: 0;
-		  left: 0;
-		  right: 0;
-		  padding: 0px; 
-		  background: rgba(40, 180, 40, 1);
-		  color: #fff;
-		  visibility: hidden;
-		  opacity: 0;
-		  transition: opacity .2s, visibility .2s;
-		  vertical-align: middle;
-		  text-align: center;
-		  
-		}
-
-		#img__wrap:hover .img__description {
-		  visibility: visible;
-		  opacity: 1;
-		}
-
 	</style>
-
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -56,104 +17,33 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
 <body>
 	
 	<div class="container-fluid">
 	
-
 	<div class="jumbotron">
 	<p ><center>Janmadin mubarak ho!!</center><p>
 	</div>	
 
 	<nav class="navbar navbar-inverse">
     <ul class="nav navbar-nav">
-      <li><a href="secret.html">Home</a></li>
-      <li class="active"><a href="#">Snapshots</a></li>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="pic.html">Snapshots</a></li>
       <li><a href="videos.html">In Motion</a></li>
       <li><a href="#">Developer's Message</a></li>
     </ul>
 	</nav>
 
+	
 	<div class="row">
-	<div class="col-sm-4 col-md-4 col-lg-4" id="a1"><img src="one.jpg" alt="Childhood" width="100%"></div>
-	<div class="col-sm-8 col-md-8 col-lg-8" id="a"><h4><strong>Bachpan</strong></h4><p>Born on 16th July 1993, a legendary character was added to the Mendiratta family.<br>Welcome Sanaaaa beta :P</p></div>
-	</div>
-	<br>
-	<div class="row">
-	<div class="col-sm-4 col-md-4 col-lg-4" id="b1"><img src="two.jpg" alt="Teenage" width="100%"></div>
-	<div class="col-sm-8 col-md-8 col-lg-8" id="b"><h4><strong>Some Text</strong></h4><p>Some more text.</p></div>
-	</div>
-	<br>
-	<div class="row">
-	<div class="col-sm-4 col-md-4 col-lg-4" id="c1"><img src="three.jpg" alt="Bdaaa" width="100%"></div>
-	<div class="col-sm-8 col-md-8 col-lg-8" id="c"><h4><strong>Some Text</strong></h4><p>Some more text</p></div>
-	</div>
-
-	<br>
-	<div class="row" style="font-size: 150px;">
-	<div class="col-sm-2 col-md-2 col-lg-2 col-md-offset-1" id="img__wrap"><img src="four.jpg" width="100%" height="250px"><p class="img__description">H</p></div>
-	<div class="col-sm-2 col-md-2 col-lg-2" id="img__wrap"><img src="five.jpg" width="100%" height="250px"><p class="img__description">A</p></div>
-	<div class="col-sm-2 col-md-2 col-lg-2" id="img__wrap"><img src="six.jpg" width="100%" height="250px"><p class="img__description">P</p></div>
-	<div class="col-sm-2 col-md-2 col-lg-2" id="img__wrap"><img src="seven.jpg" width="100%" height="250px"><p class="img__description">P</p></div>
-	<div class="col-sm-2 col-md-2 col-lg-2" id="img__wrap"><img src="eight.jpg" width="100%" height="250px"><p class="img__description">Y</p></div>
-	</div>
-
-	<br>
-
-	<div class="row"  style="font-size: 72px;">
-	<div class="col-sm-1 col-md-1 col-lg-1 col-md-offset-2" id="img__wrap"><img src="nine.jpg" width="100%" height="115px"><p class="img__description">B</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="ten.jpg" width="100%" height="115px"><p class="img__description">I</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="eleven.jpg" width="100%" height="115px"><p class="img__description">R</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="twelve.jpg" width="100%" height="115px"><p class="img__description">T</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="thirteen.jpg" width="100%" height="115px"><p class="img__description">H</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="fourteen.jpg" width="100%" height="115px"><p class="img__description">D</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="fifteen.jpg" width="100%" height="115px"><p class="img__description">A</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="sixteen.jpg" width="100%" height="115px"><p class="img__description">Y</p></div>	
-	</div>
-
-	<br>
-
-	<div class="row"  style="font-size: 72px;margin-left: 300px;width: 100%;">
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="seventeen.jpg" width="100%" height="115px"><p class="img__description">S</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="eighteen.jpg" width="100%" height="115px"><p class="img__description">A</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="nineteen.jpg" width="100%" height="115px"><p class="img__description">N</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="twenty.jpg" width="100%" height="115px"><p class="img__description">C</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="twentyone.jpg" width="100%" height="115px"><p class="img__description">H</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="twentytwo.jpg" width="100%" height="115px"><p class="img__description">I</p></div>
-	<div class="col-sm-1 col-md-1 col-lg-1"  id="img__wrap"><img src="twentythree.jpg" width="100%" height="115px"><p class="img__description">T</p></div>
-	</div>
+		<div class="col-sm-4 col-md-4 col-lg-4"><img class="img-responsive" src="24yrs.jpg" alt="Pic1"  height="450px"></div>
+		<div class="col-sm-4 col-md-4 col-lg-4"><img class="img-responsive" src="bro.gif" alt="Pic2" height="450px" ></div>
+		<div class="col-sm-4 col-md-4 col-lg-4"><img class="img-responsive" src="batman.png" alt="Pic3" height="450px" ></div>
+	</div>		
 	<br><br><br><br>
+
+
 </body>
-
-
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("#a1").mouseenter(function(){
-			$("#a").animate({opacity:"1"},700);
-		});
-
-		$("#a1").mouseleave(function(){
-			$("#a").animate({opacity:"0"},700);
-		});
-
-		$("#b1").mouseenter(function(){
-			$("#b").animate({opacity:"1"},700);
-		});
-
-		$("#b1").mouseleave(function(){
-			$("#b").animate({opacity:"0"},700);
-		});
-
-		$("#c1").mouseenter(function(){
-			$("#c").animate({opacity:"1"},700);
-		});
-
-		$("#c1").mouseleave(function(){
-			$("#c").animate({opacity:"0"},700);
-		});
-	})
-</script>
-
-
 </html>
