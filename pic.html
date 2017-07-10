@@ -4,7 +4,7 @@
 <title>Happy Birthday</title>
 	<link rel="shortcut icon" href="bday.ico" />
 
-
+	<link href='https://fonts.googleapis.com/css?family=Bigelow Rules' rel='stylesheet'>
 	<style type="text/css">
 		#a 
 		{
@@ -21,6 +21,15 @@
 			opacity: 0;
 		}
 
+		.p1
+		{
+			margin-left: 10px;
+		}
+
+		img
+		{
+			border-radius: 5px;
+		}
 
 		.img__description {
 		  position: absolute;
@@ -32,15 +41,19 @@
 		  left: 0;
 		  right: 0;
 		  padding: 0px; 
-		  background: rgba(40, 180, 40, 1);
-		  color: #fff;
+		  background: rgba(255,0,0, 1);
+		  color: #000;
 		  visibility: hidden;
 		  opacity: 0;
 		  transition: opacity .2s, visibility .2s;
-		  vertical-align: middle;
+		  vertical-align: text-bottom;
 		  text-align: center;
+		  font-weight: bold;
+		  font-family: 'Alex Brush';
 		  
 		}
+
+
 
 		#img__wrap:hover .img__description {
 		  visibility: visible;
@@ -68,7 +81,7 @@
 
 	<nav class="navbar navbar-inverse">
     <ul class="nav navbar-nav">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="secret.html">Home</a></li>
       <li class="active"><a href="#">Snapshots</a></li>
       <li><a href="videos.html">In Motion</a></li>
       <li><a href="#">Developer's Message</a></li>
@@ -76,17 +89,17 @@
 	</nav>
 
 	<div class="row">
-	<div class="col-sm-4 col-md-4 col-lg-4" id="a1"><img src="one.jpg" alt="Childhood" width="100%"></div>
+	<div class="col-sm-4 col-md-4 col-lg-4" id="a1"><img src="one.jpg" alt="Childhood" class="p1" width="100%"></div>
 	<div class="col-sm-8 col-md-8 col-lg-8" id="a"><h4><strong>Bachpan</strong></h4><p>Born on 16th July 1993, a legendary character was added to the Mendiratta family.<br>Welcome Sanaaaa beta :P</p></div>
 	</div>
 	<br>
 	<div class="row">
-	<div class="col-sm-4 col-md-4 col-lg-4" id="b1"><img src="two.jpg" alt="Teenage" width="100%"></div>
+	<div class="col-sm-4 col-md-4 col-lg-4" id="b1"><img src="two.jpg" alt="Teenage" class="p1" width="100%"></div>
 	<div class="col-sm-8 col-md-8 col-lg-8" id="b"><h4><strong>Some Text</strong></h4><p>Some more text.</p></div>
 	</div>
 	<br>
 	<div class="row">
-	<div class="col-sm-4 col-md-4 col-lg-4" id="c1"><img src="three.jpg" alt="Bdaaa" width="100%"></div>
+	<div class="col-sm-4 col-md-4 col-lg-4" id="c1"><img src="three.jpg" alt="Bdaaa" class="p1" width="100%"></div>
 	<div class="col-sm-8 col-md-8 col-lg-8" id="c"><h4><strong>Some Text</strong></h4><p>Some more text</p></div>
 	</div>
 
